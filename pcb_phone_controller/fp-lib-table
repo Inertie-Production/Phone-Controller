@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CC-Library")(type "KiCad")(uri "${KIPRJMOD}/PCB-CC_v2-backups/Library.pretty")(options "")(descr ""))
+)
