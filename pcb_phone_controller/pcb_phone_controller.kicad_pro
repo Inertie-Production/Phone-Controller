@@ -509,7 +509,7 @@
       "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../../../Downloads/PCB-CC_v2.step",
+      "step": "../../../Downloads/PCB_Phone_Controller.step",
       "svg": "",
       "vrml": ""
     },
