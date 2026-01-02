@@ -229,7 +229,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "SW"
+		(property "Reference" "TTP223"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -518,7 +518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1P2T_SS-12D00_CNK"
+		(property "Footprint" "Lib_controller:1P2T_SS-12D00_CNK"
 			(at 0 5.08 0)
 			(effects
 				(font

@@ -159,18 +159,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3 2.5)
-		(end 3 2.5)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "3d0757c9-b548-4a24-a032-15cac1657d0d")
-	)
-	(fp_line
-		(start -3 18.5)
-		(end -3 2.5)
+		(start -3 17.5)
+		(end -3 3.499999)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -179,8 +169,28 @@
 		(uuid "ba2c509e-cf11-435e-91b7-ff3a00e3ff32")
 	)
 	(fp_line
-		(start 3 2.5)
-		(end 3 18.5)
+		(start -2 2.5)
+		(end 2 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3d0757c9-b548-4a24-a032-15cac1657d0d")
+	)
+	(fp_line
+		(start 2 18.5)
+		(end -2 18.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ddcd871d-5caa-4b3a-9e3c-25bacea9d475")
+	)
+	(fp_line
+		(start 3 3.5)
+		(end 3 17.5)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -188,15 +198,49 @@
 		(layer "Edge.Cuts")
 		(uuid "b3a03446-978b-4c11-9f54-ae0e0221dcf2")
 	)
-	(fp_line
-		(start 3 18.5)
-		(end -3 18.5)
+	(fp_arc
+		(start -3 3.5)
+		(mid -2.707107 2.792893)
+		(end -2 2.5)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "ddcd871d-5caa-4b3a-9e3c-25bacea9d475")
+		(uuid "aeac0edb-8ca2-434f-884c-2adf85ff5ee1")
+	)
+	(fp_arc
+		(start -2 18.5)
+		(mid -2.707107 18.207107)
+		(end -3 17.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cf25a3f2-92eb-4df2-b18b-7c2d2a4d33e8")
+	)
+	(fp_arc
+		(start 2 2.5)
+		(mid 2.707107 2.792893)
+		(end 3 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a168c137-02a1-4c8e-8afb-085235769c00")
+	)
+	(fp_arc
+		(start 3 17.5)
+		(mid 2.707107 18.207107)
+		(end 2 18.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0f5ab918-925e-4205-bb88-d037b1ce89f9")
 	)
 	(fp_rect
 		(start -8.918645 0.051259)
@@ -259,6 +303,28 @@
 		(fill no)
 		(layer "User.1")
 		(uuid "ba10d3ae-f5b7-419b-a441-cf94f479a43d")
+	)
+	(fp_rect
+		(start -4.075 3.5)
+		(end 4.075 17.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "1c43dfc8-cc5f-4b00-a1b0-10177e7a5a00")
+	)
+	(fp_rect
+		(start -2 1.675)
+		(end 2 19.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "47bfc728-5b97-4877-aaa8-4bb4dc70b7cd")
 	)
 	(pad "1" smd roundrect
 		(at -8.908645 4.531259 270)

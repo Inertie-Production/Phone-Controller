@@ -1,6 +1,6 @@
 #include <Arduino.h>
-#include <BleGamepad.h>
-#include <Preferences.h>
+#include "lib/ESP32-BLE-Gamepad-0.7.3/BleGamepad.h"
+#include "lib/ESP32-BLE-Gamepad-0.7.3/Preferences.h"
 
 /* ============================================================
  * ========================= DEFINES ==========================
