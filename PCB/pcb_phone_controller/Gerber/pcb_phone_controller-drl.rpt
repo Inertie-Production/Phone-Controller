@@ -1,5 +1,5 @@
 Drill report for pcb_phone_controller.kicad_pcb
-Created on 2026-01-02T17:58:57+0100
+Created on 2026-01-02T20:12:21+0100
 
 Copper Layer Stackup:
     =============================================================
@@ -10,14 +10,14 @@ Copper Layer Stackup:
 Drill file 'pcb_phone_controller-PTH-drl.gbr' contains
     plated through holes:
     =============================================================
-    T1  0,300mm  0,0118"  (66 holes)
+    T1  0,300mm  0,0118"  (70 holes)
     T2  0,600mm  0,0236"  (6 holes)
     T3  0,762mm  0,0300"  (3 holes)
-    T4  1,000mm  0,0394"  (22 holes)
+    T4  1,000mm  0,0394"  (25 holes)
     T5  1,100mm  0,0433"  (22 holes)
     T6  2,700mm  0,1063"  (5 holes)
 
-    Total plated holes count 124
+    Total plated holes count 131
 
 
 Drill file 'pcb_phone_controller-NPTH-drl.gbr' contains

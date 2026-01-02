@@ -763,7 +763,7 @@
 			(symbol "Battery_connection_0_1"
 				(rectangle
 					(start -3.81 -2.54)
-					(end 3.81 -8.89)
+					(end 3.81 -10.16)
 					(stroke
 						(width 0)
 						(type default)
@@ -774,10 +774,10 @@
 				)
 			)
 			(symbol "Battery_connection_1_1"
-				(pin output line
+				(pin power_out line
 					(at -1.27 0 270)
 					(length 2.54)
-					(name "BAT-"
+					(name "BATT-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -792,10 +792,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 1.27 0 270)
 					(length 2.54)
-					(name "BAT+"
+					(name "BATT+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1578,7 +1578,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -2.54 0)
 					(length 2.54)
 					(name "GPIO"
@@ -1596,7 +1596,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -5.08 0)
 					(length 2.54)
 					(name "GPIO"
@@ -1614,7 +1614,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -7.62 0)
 					(length 2.54)
 					(name "GPIO"
@@ -1632,7 +1632,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -10.16 0)
 					(length 2.54)
 					(name "GPIO"
@@ -1650,7 +1650,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -12.7 0)
 					(length 2.54)
 					(name "GPIO"
@@ -1668,7 +1668,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -15.24 0)
 					(length 2.54)
 					(name "GPIO"
@@ -1686,7 +1686,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -17.78 0)
 					(length 2.54)
 					(name "GPIO"
@@ -1704,7 +1704,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -20.32 0)
 					(length 2.54)
 					(name "GPIO"
@@ -1722,7 +1722,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -22.86 0)
 					(length 2.54)
 					(name "GPIO"
@@ -1740,7 +1740,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -25.4 0)
 					(length 2.54)
 					(name "GPIO"
@@ -1758,7 +1758,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -27.94 0)
 					(length 2.54)
 					(name "GPIO"
@@ -1776,7 +1776,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -30.48 0)
 					(length 2.54)
 					(name "GPIO"
@@ -1794,7 +1794,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -13.97 -33.02 0)
 					(length 2.54)
 					(name "GPIO"
@@ -1812,7 +1812,43 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
+					(at -2.54 -38.1 90)
+					(length 2.54)
+					(name "+BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -38.1 90)
+					(length 2.54)
+					(name "-BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
 					(at 13.97 -2.54 180)
 					(length 2.54)
 					(name "5V"
@@ -1830,7 +1866,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_out line
 					(at 13.97 -7.62 180)
 					(length 2.54)
 					(name "GND"
@@ -1848,7 +1884,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 13.97 -12.7 180)
 					(length 2.54)
 					(name "3V3"
@@ -1866,7 +1902,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 13.97 -17.78 180)
 					(length 2.54)
 					(name "GPIO"
@@ -1884,7 +1920,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 13.97 -20.32 180)
 					(length 2.54)
 					(name "GPIO"
@@ -1902,7 +1938,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 13.97 -22.86 180)
 					(length 2.54)
 					(name "GPIO"
@@ -1920,7 +1956,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 13.97 -25.4 180)
 					(length 2.54)
 					(name "GPIO"
@@ -1938,7 +1974,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 13.97 -27.94 180)
 					(length 2.54)
 					(name "GPIO"
@@ -1956,7 +1992,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 13.97 -30.48 180)
 					(length 2.54)
 					(name "GPIO"
@@ -1974,7 +2010,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 13.97 -33.02 180)
 					(length 2.54)
 					(name "GPIO"
@@ -2736,7 +2772,7 @@
 		(uuid "dc87d856-654e-4e47-bc17-706e95b3c0a9")
 	)
 	(junction
-		(at 109.22 83.82)
+		(at 109.22 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9abfaa8-423b-4673-8220-1e5d404ea286")
@@ -2795,7 +2831,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 71.12) (xy 109.22 83.82)
+			(xy 109.22 71.12) (xy 109.22 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3105,7 +3141,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 83.82) (xy 109.22 83.82)
+			(xy 105.41 97.79) (xy 109.22 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3185,7 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 83.82) (xy 97.79 83.82)
+			(xy 93.98 97.79) (xy 97.79 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3345,7 +3381,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 83.82) (xy 109.22 83.82)
+			(xy 113.03 97.79) (xy 109.22 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4294,6 +4330,12 @@
 		)
 		(pin "13"
 			(uuid "94f8ff03-d0dc-4d1c-a226-d216d5d34e81")
+		)
+		(pin "15"
+			(uuid "da52ba03-66cf-4d72-8551-1ac0092423eb")
+		)
+		(pin "14"
+			(uuid "fabc19f1-6448-4371-8dc1-d388146a2acf")
 		)
 		(instances
 			(project ""
@@ -5271,6 +5313,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-BATT")
+		(at 129.54 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b65a227-5a20-435a-8759-8669a9914c32")
+		(property "Reference" "#PWR013"
+			(at 129.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 129.54 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2bc4814-2b32-42db-9145-97fd505dcf57")
+		)
+		(instances
+			(project "pcb_phone_controller"
+				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 255.27 115.57 0)
 		(unit 1)
@@ -5542,7 +5649,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 101.6 83.82 270)
+		(at 101.6 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5551,7 +5658,7 @@
 		(fields_autoplaced yes)
 		(uuid "6afff338-d248-4f75-98fd-38b8c1950c60")
 		(property "Reference" "C1"
-			(at 101.6 76.2 90)
+			(at 101.6 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5666,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 101.6 78.74 90)
+			(at 101.6 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5674,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 97.79 84.7852 0)
+			(at 97.79 98.7552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5683,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 83.82 0)
+			(at 101.6 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +5692,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 101.6 83.82 0)
+			(at 101.6 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +6127,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 120.65 83.82 270)
+		(at 120.65 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6028,7 +6135,7 @@
 		(dnp no)
 		(uuid "930c5072-a21e-49f0-b1a1-7a1e84cddc41")
 		(property "Reference" "#PWR04"
-			(at 116.84 83.82 0)
+			(at 116.84 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,8 +6143,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BAT"
-			(at 124.968 86.614 0)
+		(property "Value" "+BATT"
+			(at 124.968 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 83.82 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 83.82 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6171,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 120.65 83.82 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +6209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BAT"
+		(property "Value" "+BATT"
 			(at 40.386 150.368 0)
 			(effects
 				(font
@@ -6428,7 +6535,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 90.17 83.82 90)
+		(at 90.17 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6437,7 +6544,7 @@
 		(fields_autoplaced yes)
 		(uuid "af5f9e71-11bc-4476-a873-83ad282bb896")
 		(property "Reference" "R2"
-			(at 90.17 77.47 90)
+			(at 90.17 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6445,7 +6552,7 @@
 			)
 		)
 		(property "Value" "200k"
-			(at 90.17 80.01 90)
+			(at 90.17 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6453,7 +6560,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 90.17 85.598 90)
+			(at 90.17 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +6569,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 83.82 0)
+			(at 90.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6471,7 +6578,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 83.82 0)
+			(at 90.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,7 +7578,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 116.84 83.82 90)
+		(at 116.84 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7480,7 +7587,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed746479-d9a4-46af-ba00-b4e674136a15")
 		(property "Reference" "R1"
-			(at 116.84 77.47 90)
+			(at 116.84 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,7 +7595,7 @@
 			)
 		)
 		(property "Value" "200k"
-			(at 116.84 80.01 90)
+			(at 116.84 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,7 +7603,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 116.84 85.598 90)
+			(at 116.84 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7505,7 +7612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 83.82 0)
+			(at 116.84 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,7 +7621,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 116.84 83.82 0)
+			(at 116.84 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7672,7 +7779,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 86.36 83.82 90)
+		(at 86.36 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7681,7 +7788,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa9468c7-6430-4bbd-8951-fae75a2b9aa2")
 		(property "Reference" "#PWR05"
-			(at 90.17 83.82 0)
+			(at 90.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,7 +7797,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 82.55 83.8199 90)
+			(at 82.55 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +7806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 83.82 0)
+			(at 86.36 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +7815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 83.82 0)
+			(at 86.36 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7716,8 +7823,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 86.36 83.82 0)
+		(property "Description" "Power symbol creates a global label with name \"-BAT\""
+			(at 86.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 86.36 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7799,6 +7915,72 @@
 			(project ""
 				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 124.46 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fda37884-caff-4076-bf74-345f2594440b")
+		(property "Reference" "#PWR03"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 121.666 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e872e5d-6d7a-480f-810b-44faf924ea6c")
+		)
+		(instances
+			(project "pcb_phone_controller"
+				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

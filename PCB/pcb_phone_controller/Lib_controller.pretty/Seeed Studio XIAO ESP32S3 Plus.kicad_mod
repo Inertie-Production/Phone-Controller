@@ -353,10 +353,14 @@
 		(thermal_bridge_angle 0)
 		(uuid "92220895-ab8e-41aa-a90c-3672dfedad2b")
 	)
-	(pad "3V3" smd roundrect
-		(at 8.871355 9.611259 90)
-		(size 1 1.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+	(pad "3V3" thru_hole roundrect
+		(at 7.601355 9.611259 90)
+		(size 2 3)
+		(drill 1
+			(offset 0 0.5)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.0381)
 		(thermal_bridge_angle 0)
@@ -380,10 +384,14 @@
 		(thermal_bridge_angle 0)
 		(uuid "a6cd10f4-d83e-4967-a77c-d642c81ba628")
 	)
-	(pad "5V" smd roundrect
-		(at 8.871355 4.531259 90)
-		(size 1 1.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+	(pad "5V" thru_hole roundrect
+		(at 7.601355 4.531259 90)
+		(size 2 3)
+		(drill 1
+			(offset 0 0.5)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.0381)
 		(thermal_bridge_angle 0)
@@ -461,6 +469,23 @@
 		(thermal_bridge_angle 0)
 		(uuid "f0335b04-4786-416a-b21a-08020591beeb")
 	)
+	(pad "14" smd roundrect
+		(at 6 12.5 180)
+		(size 3 2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "f4ead2f8-6dc2-45a9-a556-8bd57b907605")
+	)
+	(pad "15" smd rect
+		(at 6 15.25 180)
+		(size 3 2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(solder_mask_margin 0.0381)
+		(thermal_bridge_angle 0)
+		(uuid "1e69474b-e567-42fa-9a16-1b2822d6660c")
+	)
 	(pad "38" smd roundrect
 		(at -8.908645 5.801259 270)
 		(size 1 1.5)
@@ -524,11 +549,14 @@
 		(thermal_bridge_angle 0)
 		(uuid "15f174b2-de18-49e9-a894-a983c95a7ab8")
 	)
-	(pad "GND" smd roundrect
-		(at 8.871355 7.071259 90)
-		(size 1 1.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
+	(pad "GND" thru_hole rect
+		(at 7.601355 7.071259 90)
+		(size 2 3)
+		(drill 1
+			(offset 0 0.5)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(solder_mask_margin 0.0381)
 		(thermal_bridge_angle 0)
 		(uuid "48a74900-f98b-41dc-ace9-a2abd9ecac42")
