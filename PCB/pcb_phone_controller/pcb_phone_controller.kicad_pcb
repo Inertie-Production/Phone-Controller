@@ -579,7 +579,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "ClickStickR1"
-			(at 0 -2.38 270)
+			(at -1.4 -6.12 0)
 			(layer "F.SilkS")
 			(uuid "8be663a0-6363-4bfc-be46-042d7eec56b7")
 			(effects
@@ -983,7 +983,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "ClickStickL1"
-			(at 0 -2.38 270)
+			(at 2.2 2.8 0)
 			(layer "F.SilkS")
 			(uuid "d06807cd-bec9-46de-90aa-b530450e6fb0")
 			(effects
@@ -3312,7 +3312,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "BumperR1"
-			(at 0 -2.38 90)
+			(at 2.3 2.6 180)
 			(layer "F.SilkS")
 			(uuid "85e64e1a-43b2-4344-95de-af0e470bb289")
 			(effects
@@ -5497,7 +5497,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "BumperL1"
-			(at 0 -2.38 90)
+			(at 2.3 2.68 180)
 			(layer "F.SilkS")
 			(uuid "68cbe331-49c0-471f-84cd-4b9f32fe4c52")
 			(effects
