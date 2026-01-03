@@ -1,4 +1,4 @@
-26575137051239791
+26575137149982710
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69657,19 +69657,19 @@ KAILH-MINI-SILENT-SWITCH
 2
 2
 Lib_controller
-PinHeader_1x03_P2.54mm_Vertical
-Through hole straight pin header, 1x03, 2.54mm pitch, single row
-Through hole pin header THT 1x03 2.54mm single row
-0
-3
-3
-Lib_controller
 Seeed Studio XIAO ESP32S3 Plus
 
 
 0
 25
 25
+Lib_controller
+TTP223
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
 Lib_controller
 qrcode-license
 

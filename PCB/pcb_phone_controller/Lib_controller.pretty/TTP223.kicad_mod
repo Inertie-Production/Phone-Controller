@@ -1,4 +1,4 @@
-(footprint "PinHeader_1x03_P2.54mm_Vertical"
+(footprint "TTP223"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "PinHeader_1x03_P2.54mm_Vertical"
+	(property "Value" "TTP223"
 		(at 0 7.46 0)
 		(layer "F.Fab")
 		(uuid "7c6e1408-783d-4ead-b0d9-893c0987a9fd")
@@ -238,15 +238,15 @@
 		(uuid "4881a4be-8864-41ec-af56-6ecdcd86d707")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3Dmodels/TTP223.step"
 		(offset
-			(xyz 0 0 -1.6)
+			(xyz 6 -2.54 -6.6)
 		)
 		(scale
-			(xyz 1 1 -1)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -0 -0 -180)
 		)
 	)
 )

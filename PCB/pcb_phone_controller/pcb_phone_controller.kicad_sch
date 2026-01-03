@@ -6014,7 +6014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lib_controller:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Lib_controller:TTP223"
 			(at 213.36 105.41 0)
 			(effects
 				(font
@@ -6628,7 +6628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lib_controller:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Lib_controller:TTP223"
 			(at 236.22 105.41 0)
 			(effects
 				(font
@@ -6700,7 +6700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lib_controller:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Lib_controller:TTP223"
 			(at 252.73 105.41 0)
 			(effects
 				(font
@@ -7463,7 +7463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lib_controller:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Lib_controller:TTP223"
 			(at 275.59 105.41 0)
 			(effects
 				(font
