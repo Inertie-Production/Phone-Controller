@@ -65,6 +65,17 @@
 		(uuid "c4378ffc-0579-487f-8a9d-00b88b481caa")
 	)
 	(fp_rect
+		(start -2.4 -1.8)
+		(end 2.4 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "66096155-fc73-4544-bccc-3943531fcc30")
+	)
+	(fp_rect
 		(start -1.85 -1.7)
 		(end 1.85 1.7)
 		(stroke
@@ -140,31 +151,42 @@
 	)
 	(pad "1" smd roundrect
 		(at -1.55 -1.375)
-		(size 1.6 1.3)
+		(size 1.6 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "18a6df45-133c-4750-8c24-b0540c1bd5f8")
 	)
 	(pad "1" smd roundrect
 		(at 1.55 -1.375)
-		(size 1.6 1.3)
+		(size 1.6 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "524d5058-0646-4d28-bdf8-ee66d20d34c5")
 	)
 	(pad "2" smd roundrect
 		(at -1.55 1.375)
-		(size 1.6 1.3)
+		(size 1.6 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "bdb37f69-44cf-4040-b0ce-086c48b150b9")
 	)
 	(pad "2" smd roundrect
 		(at 1.55 1.375)
-		(size 1.6 1.3)
+		(size 1.6 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "f4f546b0-17a9-4623-b8ae-d9f2881f869b")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3Dmodels/SKRWADE030.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
