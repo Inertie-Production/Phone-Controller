@@ -267,7 +267,7 @@ void setup()
 
 	for (int i = 0; i < MATRIX_COLS; i++)
 	{
-		pinMode(ColPins[i], INPUT_PULLUP);
+		pinMode(ColPins[i], INPUT);
 	}
 
 	delay(100);

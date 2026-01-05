@@ -813,124 +813,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Lib_controller:Capacitive_touch_sensor"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Lib_controller:PinHeader_1x03_P2.54mm_Vertical"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Capacitive_touch_sensor_0_1"
-				(rectangle
-					(start -3.81 3.81)
-					(end 3.81 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Capacitive_touch_sensor_1_1"
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "I/O"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Lib_controller:KAILH-MINI-SILENT-SWITCH"
 			(pin_numbers
 				(hide yes)
@@ -1044,6 +926,158 @@
 				)
 			)
 			(symbol "KAILH-MINI-SILENT-SWITCH_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Lib_controller:Membrane_button"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Thin membrane button"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Lib_controller:KAILH-MINI-SILENT-SWITCH"
+				(at 0.254 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0.254 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Membrane_button_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Membrane_button_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2640,8 +2674,8 @@
 		)
 	)
 	(rectangle
-		(start 90.17 39.37)
-		(end 99.06 49.53)
+		(start 91.44 39.37)
+		(end 100.33 49.53)
 		(stroke
 			(width 0)
 			(type default)
@@ -2694,6 +2728,30 @@
 		(uuid "241f10c8-bc29-4523-9ea4-143a0868422b")
 	)
 	(junction
+		(at 242.57 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "254d5c0d-c9df-4d91-951a-2326c0c26773")
+	)
+	(junction
+		(at 281.94 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37b35d47-3089-404f-8b6b-dfdac0c7226e")
+	)
+	(junction
+		(at 104.14 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e63ab7f-ec22-4b8a-8a65-f905c753dfff")
+	)
+	(junction
+		(at 160.02 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f3e0418-52d8-4567-837b-9a245d07cd7f")
+	)
+	(junction
 		(at 104.14 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2706,22 +2764,10 @@
 		(uuid "56710970-3a03-4e21-a1db-d994be63163a")
 	)
 	(junction
-		(at 242.57 116.84)
+		(at 86.36 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "69b380ce-3f03-4c6a-a2d8-965099b4f82d")
-	)
-	(junction
-		(at 281.94 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ab31ef8-215a-4979-ac8d-710209e9a796")
-	)
-	(junction
-		(at 246.38 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b4c11ee-27d7-4f2f-bccb-fea7b43ab51c")
+		(uuid "87621d0a-4103-472c-bbaa-f992ca0fd689")
 	)
 	(junction
 		(at 224.79 132.08)
@@ -2742,10 +2788,22 @@
 		(uuid "a9aa176e-8879-4a27-96ea-6062cf03d22c")
 	)
 	(junction
+		(at 207.01 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4d8707f-8c2d-4c57-b615-c5aa2e80947d")
+	)
+	(junction
 		(at 246.38 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b999bf8d-f29b-4335-833d-7803a98ea874")
+	)
+	(junction
+		(at 246.38 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcb0251c-b331-4cb6-bc60-f4bbc3e9cd62")
 	)
 	(junction
 		(at 99.06 110.49)
@@ -2766,16 +2824,16 @@
 		(uuid "d635cdee-080a-4b70-b781-af3049ad86a4")
 	)
 	(junction
-		(at 207.01 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc87d856-654e-4e47-bc17-706e95b3c0a9")
-	)
-	(junction
 		(at 109.22 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9abfaa8-423b-4673-8220-1e5d404ea286")
+	)
+	(junction
+		(at 68.58 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee2550ba-0972-43a7-9a25-0eaf0c90bd7f")
 	)
 	(no_connect
 		(at 113.03 66.04)
@@ -2821,16 +2879,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 114.3) (xy 275.59 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01a4f480-7460-4bac-962f-67ac69becc4f")
-	)
-	(wire
-		(pts
 			(xy 109.22 71.12) (xy 109.22 97.79)
 		)
 		(stroke
@@ -2868,16 +2916,6 @@
 			(type default)
 		)
 		(uuid "0837f527-f4a9-41f1-8c80-48fee15fb9c8")
-	)
-	(wire
-		(pts
-			(xy 210.82 114.3) (xy 207.01 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bc3ae1b-fb8f-41f6-a717-643e170739df")
 	)
 	(wire
 		(pts
@@ -2921,16 +2959,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 60.96) (xy 113.03 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "265d0e1b-b702-4e98-8deb-f06f196a7b6a")
-	)
-	(wire
-		(pts
 			(xy 224.79 144.78) (xy 264.16 144.78)
 		)
 		(stroke
@@ -2938,6 +2966,16 @@
 			(type default)
 		)
 		(uuid "2b036267-529a-4c35-860d-386fff8eadf1")
+	)
+	(wire
+		(pts
+			(xy 106.68 68.58) (xy 113.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c04e2fb-cfb4-4ae7-9b34-a5ee9a9236e8")
 	)
 	(wire
 		(pts
@@ -2971,6 +3009,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 114.3) (xy 281.94 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3475e614-7249-4e41-84bc-beee6d46e3f9")
+	)
+	(wire
+		(pts
 			(xy 142.24 73.66) (xy 140.97 73.66)
 		)
 		(stroke
@@ -2978,16 +3026,6 @@
 			(type default)
 		)
 		(uuid "3bc08c83-587f-4346-8544-aeab2131b8fc")
-	)
-	(wire
-		(pts
-			(xy 215.9 115.57) (xy 215.9 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3be21a83-a794-4b48-94dc-dc7875a64e90")
 	)
 	(wire
 		(pts
@@ -3001,23 +3039,23 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 116.84) (xy 281.94 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4159ec94-d62e-465e-adc3-ced3abfe3926")
-	)
-	(wire
-		(pts
-			(xy 101.6 43.18) (xy 113.03 43.18)
+			(xy 102.87 43.18) (xy 113.03 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "46d146f0-78af-4070-9d87-4d40b482ecc1")
+	)
+	(wire
+		(pts
+			(xy 67.31 50.8) (xy 68.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4909605b-71e1-4998-86b9-a14013c5d265")
 	)
 	(wire
 		(pts
@@ -3031,13 +3069,23 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 115.57) (xy 255.27 113.03)
+			(xy 86.36 55.88) (xy 113.03 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60bfa2ca-5b8e-4082-a271-b127c03f445a")
+		(uuid "4d230d24-928b-4eaa-810d-d8abf99f5d27")
+	)
+	(wire
+		(pts
+			(xy 242.57 114.3) (xy 242.57 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6012fd8b-1c6f-4007-8b10-d4ab1119d16c")
 	)
 	(wire
 		(pts
@@ -3051,33 +3099,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 113.03) (xy 250.19 114.3)
+			(xy 160.02 71.12) (xy 140.97 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6366ff59-260c-4acd-8428-42420ee63bc5")
-	)
-	(wire
-		(pts
-			(xy 232.41 114.3) (xy 236.22 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "646c8d35-7b2d-42bc-a00d-d9a3f24011cb")
-	)
-	(wire
-		(pts
-			(xy 210.82 113.03) (xy 210.82 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65960875-82a5-44c6-a896-7dd5b80bca83")
+		(uuid "627aa49b-2214-4566-87c4-7ae404ebcb09")
 	)
 	(wire
 		(pts
@@ -3091,17 +3119,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 116.84) (xy 242.57 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c283e9f-dc14-4a41-98c1-d592a1acbe85")
-	)
-	(wire
-		(pts
-			(xy 111.76 58.42) (xy 113.03 58.42)
+			(xy 106.68 58.42) (xy 113.03 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3111,33 +3129,33 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 113.03) (xy 252.73 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e5a7fb1-2c82-48c7-8bd1-049b634ec218")
-	)
-	(wire
-		(pts
 			(xy 246.38 114.3) (xy 246.38 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f7fe945-1c45-4b2b-8a35-1ae1ea2f3b2b")
+		(uuid "6cb70f87-f1ae-466f-b82c-007809be7325")
 	)
 	(wire
 		(pts
-			(xy 217.17 114.3) (xy 213.36 114.3)
+			(xy 160.02 86.36) (xy 160.02 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71a03c69-8c72-4bc3-adc3-39fc6b8610c9")
+		(uuid "6dc8ab56-6492-4f7f-bdd7-41b918550d55")
+	)
+	(wire
+		(pts
+			(xy 160.02 85.09) (xy 160.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e8ef9a9-260a-49ac-9896-440cf9e87fad")
 	)
 	(wire
 		(pts
@@ -3151,17 +3169,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 114.3) (xy 275.59 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74fd79bd-ee2b-483c-b859-d68da85bafbd")
-	)
-	(wire
-		(pts
-			(xy 101.6 48.26) (xy 113.03 48.26)
+			(xy 102.87 48.26) (xy 113.03 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3201,13 +3209,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 114.3) (xy 236.22 113.03)
+			(xy 106.68 77.47) (xy 106.68 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86d0a618-48ed-45f9-a20f-ec722043e15e")
+		(uuid "86b68381-7519-4775-9cab-1f3ae8eac2e2")
 	)
 	(wire
 		(pts
@@ -3231,43 +3239,23 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 114.3) (xy 207.01 127)
+			(xy 102.87 60.96) (xy 104.14 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ad8425b-bd88-4a78-8309-36c27f6ccba9")
+		(uuid "89745e22-4630-4c98-a285-48195fda42ff")
 	)
 	(wire
 		(pts
-			(xy 252.73 114.3) (xy 256.54 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b198e52-fe2e-4932-9456-ed3ebfb2b9eb")
-	)
-	(wire
-		(pts
-			(xy 281.94 116.84) (xy 281.94 139.7)
+			(xy 281.94 104.14) (xy 281.94 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8f2d6888-9ff9-43c7-8d6d-fc5e085884c0")
-	)
-	(wire
-		(pts
-			(xy 213.36 114.3) (xy 213.36 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "920ee6cf-55f9-458e-8db3-db5fb92c817d")
 	)
 	(wire
 		(pts
@@ -3281,7 +3269,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 68.58) (xy 113.03 68.58)
+			(xy 88.9 77.47) (xy 106.68 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3291,43 +3279,13 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 113.03) (xy 273.05 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3095e1a-1d70-4b0f-9d29-3202c334972b")
-	)
-	(wire
-		(pts
-			(xy 111.76 55.88) (xy 113.03 55.88)
+			(xy 85.09 55.88) (xy 86.36 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a37ec4bd-0861-4af4-a310-79a811284903")
-	)
-	(wire
-		(pts
-			(xy 111.76 50.8) (xy 113.03 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3fcdc9a-88be-4415-801a-9390172ae75c")
-	)
-	(wire
-		(pts
-			(xy 233.68 113.03) (xy 233.68 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba260826-5480-46fd-8a0c-827f2607e743")
 	)
 	(wire
 		(pts
@@ -3341,26 +3299,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 114.3) (xy 246.38 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2e971f6-f0ce-4020-b682-515c3b459708")
-	)
-	(wire
-		(pts
-			(xy 242.57 104.14) (xy 242.57 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3492fa5-c933-43bf-bf0e-da4cd330ab28")
-	)
-	(wire
-		(pts
 			(xy 207.01 104.14) (xy 207.01 114.3)
 		)
 		(stroke
@@ -3368,16 +3306,6 @@
 			(type default)
 		)
 		(uuid "c457908e-1684-4c2b-98cc-cea946174ff0")
-	)
-	(wire
-		(pts
-			(xy 142.24 71.12) (xy 140.97 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4a63c6d-233d-4084-872b-957832564b00")
 	)
 	(wire
 		(pts
@@ -3401,6 +3329,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 114.3) (xy 207.01 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8111af-ed71-4caa-864f-dcad68dd3853")
+	)
+	(wire
+		(pts
 			(xy 151.13 58.42) (xy 140.97 58.42)
 		)
 		(stroke
@@ -3421,6 +3359,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 60.96) (xy 113.03 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a3b269-bc5d-4b2d-ba23-2a3b86cc1106")
+	)
+	(wire
+		(pts
 			(xy 48.26 147.32) (xy 48.26 158.75)
 		)
 		(stroke
@@ -3431,17 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 104.14) (xy 281.94 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0d954fd-a0ac-4435-babc-ff94695eb102")
-	)
-	(wire
-		(pts
-			(xy 242.57 116.84) (xy 242.57 127)
+			(xy 242.57 104.14) (xy 242.57 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3501,6 +3439,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 50.8) (xy 113.03 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda1b326-7d4b-4401-984c-a50063b9186b")
+	)
+	(wire
+		(pts
 			(xy 109.22 71.12) (xy 113.03 71.12)
 		)
 		(stroke
@@ -3533,7 +3481,7 @@
 	)
 	(global_label "Row 0"
 		(shape input)
-		(at 111.76 50.8 180)
+		(at 67.31 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3543,7 +3491,7 @@
 		)
 		(uuid "1c71c081-afd0-46ae-85b7-881261cdbf2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.8482 50.8 0)
+			(at 58.3982 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3525,7 @@
 	)
 	(global_label "Column 2"
 		(shape input)
-		(at 111.76 58.42 180)
+		(at 106.68 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3587,7 +3535,7 @@
 		)
 		(uuid "33bb2b8a-4235-4993-b6c5-871d86e61ca7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.5222 58.42 0)
+			(at 94.4422 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3591,7 @@
 	)
 	(global_label "Row 1"
 		(shape input)
-		(at 111.76 55.88 180)
+		(at 85.09 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3653,7 +3601,7 @@
 		)
 		(uuid "724b9521-1e31-4839-a712-198ae2d186cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.8482 55.88 0)
+			(at 76.1782 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,29 +3679,29 @@
 	)
 	(global_label "Row 2"
 		(shape input)
-		(at 142.24 71.12 0)
+		(at 160.02 86.36 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c8795c0e-c841-4014-8be8-e019012ff385")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.1518 71.12 0)
+			(at 160.02 95.2718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Row 3"
 		(shape input)
-		(at 111.76 60.96 180)
+		(at 102.87 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3763,7 +3711,7 @@
 		)
 		(uuid "cdad1611-87c3-4c96-b4a9-7f4c4c0d4bfc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.8482 60.96 0)
+			(at 93.9582 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +3811,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 101.6 40.64 90)
+		(at 102.87 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3872,7 +3820,7 @@
 		(fields_autoplaced yes)
 		(uuid "0146b89e-f6eb-41c7-80a0-ac915f1de4dc")
 		(property "Reference" "#PWR7"
-			(at 107.95 40.64 0)
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +3829,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 40.6399 90)
+			(at 106.68 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +3838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 40.64 0)
+			(at 102.87 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +3847,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 40.64 0)
+			(at 102.87 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +3856,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 101.6 40.64 0)
+			(at 102.87 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,6 +3939,74 @@
 			(project "PCB-CC_v2"
 				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
 					(reference "Home1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lib_controller:Membrane_button")
+		(at 212.09 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1525cb59-3116-4fb9-a5d0-729f825de48f")
+		(property "Reference" "BumperL1"
+			(at 212.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thin membrane button"
+			(at 212.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Lib_controller:SKRWADE030"
+			(at 212.344 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 212.344 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc428236-7f45-4fd1-86cc-3d4153b7794c")
+		)
+		(pin "2"
+			(uuid "b17c357d-59ad-49d3-8953-b57f4701050c")
+		)
+		(instances
+			(project ""
+				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
+					(reference "BumperL1")
 					(unit 1)
 				)
 			)
@@ -4554,6 +4570,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 152.4 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27a8ef31-741d-4d55-b759-c444499856a3")
+		(property "Reference" "#PWR020"
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 147.32 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc21c638-5356-42d6-a6ab-78430c395bb2")
+		)
+		(instances
+			(project "pcb_phone_controller"
+				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 166.37 74.93 180)
 		(unit 1)
@@ -4832,17 +4913,24 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 238.76 113.03 0)
+		(lib_id "Lib_controller:Membrane_button")
+		(at 276.86 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2efccaac-c8b0-455d-88be-804bad8c34d5")
-		(property "Reference" "#PWR06"
-			(at 238.76 119.38 0)
+		(uuid "2f8e2a0b-8f77-4259-ba42-6b7a1b45a62b")
+		(property "Reference" "ClickStickR1"
+			(at 276.86 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thin membrane button"
+			(at 276.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,16 +4938,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 238.76 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 113.03 0)
+		(property "Footprint" "Lib_controller:SKRWADE030"
+			(at 277.114 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 113.03 0)
+			(at 276.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,8 +4956,76 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 238.76 113.03 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 277.114 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62c82766-9c59-41d1-a9fa-b90cb337d648")
+		)
+		(pin "1"
+			(uuid "788bb3a5-96ae-4579-9211-44c817885e02")
+		)
+		(instances
+			(project ""
+				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
+					(reference "ClickStickR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lib_controller:Membrane_button")
+		(at 251.46 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "313b1272-1b96-41c5-acc3-71a140bf9bef")
+		(property "Reference" "BumperR1"
+			(at 251.46 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thin membrane button"
+			(at 251.46 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Lib_controller:SKRWADE030"
+			(at 251.714 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 251.714 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,12 +5034,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "9db691ae-cdc5-4d19-a92e-a3b1ccd999fa")
+			(uuid "ed2ba7f1-0ae6-4952-a617-f4560496223d")
+		)
+		(pin "2"
+			(uuid "1b6a7262-b8f9-434a-8498-59a77e1b4c96")
 		)
 		(instances
-			(project "pcb_phone_controller"
+			(project ""
 				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
-					(reference "#PWR06")
+					(reference "BumperR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "319b3251-b156-4f31-ab07-88917474adf6")
+		(property "Reference" "R3"
+			(at 71.12 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 71.12 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 66.802 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ee1d876-69c5-45fb-b74e-61b1e0dab15b")
+		)
+		(pin "2"
+			(uuid "dbb3bee7-69f7-42ff-b922-87dae499eadc")
+		)
+		(instances
+			(project ""
+				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4899,7 +5120,7 @@
 	)
 	(symbol
 		(lib_id "Lib_controller:3DS_stick")
-		(at 101.6 44.45 90)
+		(at 102.87 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4907,7 +5128,7 @@
 		(dnp no)
 		(uuid "3646d807-acf3-4196-9b6d-dff2d0faf55c")
 		(property "Reference" "StickL1"
-			(at 92.202 43.942 0)
+			(at 93.472 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +5136,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 97.79 44.45 0)
+			(at 99.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +5144,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 101.6 44.45 0)
+			(at 102.87 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,7 +5153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 44.45 0)
+			(at 102.87 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +5162,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 44.45 0)
+			(at 102.87 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,6 +5260,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 68.58 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dbc2c16-52ee-4a33-9ce4-d0c421a1c344")
+		(property "Reference" "#PWR014"
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 68.58 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 68.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2fbb107-e20a-46e6-aa66-e297d106f236")
+		)
+		(instances
+			(project "pcb_phone_controller"
+				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Lib_controller:SS49E")
 		(at 200.66 48.26 180)
 		(unit 1)
@@ -5046,10 +5332,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f0b0fe0-b25c-446e-a7dc-608fb691f66c")
 		(property "Reference" "TriggerR1"
-			(at 180.34 35.56 0)
+			(at 180.594 41.91 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5057,7 +5342,7 @@
 			)
 		)
 		(property "Value" "SS49E"
-			(at 180.34 38.1 0)
+			(at 180.594 44.45 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5112,34 +5397,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 215.9 115.57 0)
+		(lib_id "Device:R")
+		(at 86.36 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "535f8947-fdd3-408a-adb6-c4dc3282627b")
-		(property "Reference" "#PWR012"
-			(at 215.9 121.92 0)
+		(uuid "5463371e-e7aa-4d16-810a-8653ddc8c523")
+		(property "Reference" "R4"
+			(at 88.9 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 215.9 120.65 0)
+		(property "Value" "10k"
+			(at 88.9 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 215.9 115.57 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 84.582 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5148,7 +5434,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 115.57 0)
+			(at 86.36 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,8 +5442,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 215.9 115.57 0)
+		(property "Description" "Resistor"
+			(at 86.36 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,12 +5452,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8dc588cc-1524-4229-a3ab-e36249ffc1a7")
+			(uuid "88b33f32-0aef-45bc-bc66-7edbbf688120")
+		)
+		(pin "2"
+			(uuid "71024b4e-e423-4b20-a4ae-86a7642fa4cc")
 		)
 		(instances
 			(project "pcb_phone_controller"
 				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
-					(reference "#PWR012")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5378,72 +5667,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 255.27 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d3e27ea-c9cf-489e-994d-ac8e73faaf23")
-		(property "Reference" "#PWR010"
-			(at 255.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 255.27 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a286f596-0ffa-4b0c-bb24-f73c5b5b1add")
-		)
-		(instances
-			(project "pcb_phone_controller"
-				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 109.22 107.95 0)
 		(unit 1)
@@ -5584,7 +5807,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 101.6 45.72 270)
+		(at 102.87 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5592,7 +5815,7 @@
 		(dnp no)
 		(uuid "686b3a39-ff97-46e9-b18b-87cb004c7796")
 		(property "Reference" "#PWR021"
-			(at 97.79 45.72 0)
+			(at 99.06 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,7 +5824,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 106.68 45.72 90)
+			(at 107.95 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +5832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 45.72 0)
+			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,7 +5841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 45.72 0)
+			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,7 +5850,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 101.6 45.72 0)
+			(at 102.87 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,6 +5933,74 @@
 			(project ""
 				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lib_controller:Membrane_button")
+		(at 237.49 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d03b472-58f7-46ae-a485-a80dff5e9c8b")
+		(property "Reference" "ClickStickL1"
+			(at 237.49 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thin membrane button"
+			(at 237.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Lib_controller:SKRWADE030"
+			(at 237.744 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 237.744 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a68126a7-b490-4b22-971c-47ac0e08c9e9")
+		)
+		(pin "2"
+			(uuid "cadb7cb4-f048-4cc0-8b81-8e0c7860e1d2")
+		)
+		(instances
+			(project ""
+				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
+					(reference "ClickStickL1")
 					(unit 1)
 				)
 			)
@@ -5988,16 +6279,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Lib_controller:Capacitive_touch_sensor")
-		(at 213.36 105.41 0)
+		(lib_id "Device:R")
+		(at 104.14 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8e2d1d47-bbd6-4d78-a567-39775f3f685c")
-		(property "Reference" "BumperL1"
-			(at 209.042 103.632 0)
+		(fields_autoplaced yes)
+		(uuid "8722cfbe-090b-4f05-8e2a-1d4ddb61691a")
+		(property "Reference" "R5"
+			(at 106.68 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6005,8 +6297,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 211.328 105.918 0)
+		(property "Value" "10k"
+			(at 106.68 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6014,8 +6306,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lib_controller:TTP223"
-			(at 213.36 105.41 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 102.362 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,8 +6315,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 213.36 105.41 0)
+		(property "Datasheet" "~"
+			(at 104.14 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,8 +6324,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 213.36 105.41 0)
+		(property "Description" "Resistor"
+			(at 104.14 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6042,18 +6334,80 @@
 			)
 		)
 		(pin "1"
-			(uuid "985a8254-4292-4446-91fb-fa94ff1146c9")
+			(uuid "4f27c31e-8660-4b9b-883d-c269c7496e45")
 		)
 		(pin "2"
-			(uuid "4919c5bd-7a79-4e44-b51e-f4fd481e8f5e")
-		)
-		(pin "3"
-			(uuid "efacba49-b6b5-498f-8582-10b3a28e658b")
+			(uuid "547d7a21-d56e-4e72-aab3-1a5bac6bb285")
 		)
 		(instances
-			(project ""
+			(project "pcb_phone_controller"
 				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
-					(reference "BumperL1")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 104.14 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a724b6f-d8d2-4e77-937d-70c5db88a553")
+		(property "Reference" "#PWR019"
+			(at 104.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 104.14 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a66c281f-c0e7-4384-8d33-4504e68f23d0")
+		)
+		(instances
+			(project "pcb_phone_controller"
+				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6534,6 +6888,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 86.36 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aba18e1a-2bb7-49a4-916a-fd9c51d321ac")
+		(property "Reference" "#PWR017"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 86.36 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 86.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54882b8c-ef14-4828-9e19-387500cb3462")
+		)
+		(instances
+			(project "pcb_phone_controller"
+				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 90.17 97.79 90)
 		(unit 1)
@@ -6602,152 +7021,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Lib_controller:Capacitive_touch_sensor")
-		(at 236.22 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2fe1260-dc72-48ce-a58c-aab0c0a292c7")
-		(property "Reference" "ClickStickL1"
-			(at 230.886 103.378 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 234.188 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Lib_controller:TTP223"
-			(at 236.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f3dc525-ae8b-427c-9dd7-964bdf4bd665")
-		)
-		(pin "3"
-			(uuid "95b7c07d-c5ed-4480-be0c-b827e0149492")
-		)
-		(pin "2"
-			(uuid "5b3318db-b7a5-4caf-a273-ca6500b42bbb")
-		)
-		(instances
-			(project ""
-				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
-					(reference "ClickStickL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Lib_controller:Capacitive_touch_sensor")
-		(at 252.73 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b43f105b-70bc-41d6-be0a-3bd8cc37c23d")
-		(property "Reference" "BumperR1"
-			(at 248.412 103.632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 250.698 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Lib_controller:TTP223"
-			(at 252.73 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f34d518-848a-4f44-8152-6cbc9ad76872")
-		)
-		(pin "3"
-			(uuid "99a46d3f-ba5e-41ce-92e7-d9cf37102c0c")
-		)
-		(pin "2"
-			(uuid "5c093070-9241-4ae0-97d3-0c136a589b71")
-		)
-		(instances
-			(project ""
-				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
-					(reference "BumperR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
-		(at 93.98 71.12 90)
+		(at 88.9 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6756,7 +7031,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4c720b4-e41d-48f7-9cd7-3a1ea601d189")
 		(property "Reference" "#PWR015"
-			(at 100.33 71.12 0)
+			(at 95.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,7 +7040,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 71.1199 90)
+			(at 92.71 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,7 +7049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 71.12 0)
+			(at 88.9 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6783,7 +7058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 71.12 0)
+			(at 88.9 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +7067,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 93.98 71.12 0)
+			(at 88.9 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6881,6 +7156,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 156.21 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c29649ba-8fb4-4592-a333-e4593c6de5e0")
+		(property "Reference" "R6"
+			(at 157.4801 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 154.9401 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 156.21 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c8adb57-cba5-483b-ae5b-2c688a196c9e")
+		)
+		(pin "2"
+			(uuid "0001cbd9-eaf7-4534-ada5-aadc8cb508e1")
+		)
+		(instances
+			(project "pcb_phone_controller"
+				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAT54C")
 		(at 224.79 127 0)
 		(unit 1)
@@ -6954,16 +7299,15 @@
 	)
 	(symbol
 		(lib_id "Lib_controller:SS49E")
-		(at 53.34 68.58 0)
+		(at 48.26 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce937e4e-582e-453d-bf3c-3ec9bb541018")
 		(property "Reference" "TriggerL1"
-			(at 73.66 58.42 0)
+			(at 69.342 74.422 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6971,7 +7315,7 @@
 			)
 		)
 		(property "Value" "SS49E"
-			(at 73.66 60.96 0)
+			(at 69.596 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6979,7 +7323,7 @@
 			)
 		)
 		(property "Footprint" "Lib_controller:ss49e"
-			(at 52.832 80.01 0)
+			(at 47.752 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6989,7 +7333,7 @@
 			)
 		)
 		(property "Datasheet" "SS49E"
-			(at 53.34 68.58 0)
+			(at 48.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6999,7 +7343,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 68.58 0)
+			(at 48.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +7643,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 53.34 68.58 90)
+		(at 48.26 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7308,7 +7652,7 @@
 		(fields_autoplaced yes)
 		(uuid "deb71f38-c2c9-46ea-8ad7-976fb1fad412")
 		(property "Reference" "#PWR023"
-			(at 57.15 68.58 0)
+			(at 52.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7661,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 49.53 68.5799 90)
+			(at 44.45 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 68.58 0)
+			(at 48.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +7679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 68.58 0)
+			(at 48.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +7688,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 53.34 68.58 0)
+			(at 48.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7431,78 +7775,6 @@
 			(project "FMControllerSeed"
 				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Lib_controller:Capacitive_touch_sensor")
-		(at 275.59 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3c21747-636a-4b97-8a41-128195d1c78e")
-		(property "Reference" "ClickStickR1"
-			(at 270.256 103.378 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 273.558 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Lib_controller:TTP223"
-			(at 275.59 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 275.59 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "70680fcc-4d2a-4308-8da0-beedd6a6e2ec")
-		)
-		(pin "2"
-			(uuid "279c1866-f186-42a6-815f-eaab6ea924ca")
-		)
-		(pin "1"
-			(uuid "02375657-7e1f-4ac6-bdc5-1d9fe81478cb")
-		)
-		(instances
-			(project ""
-				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
-					(reference "ClickStickR1")
 					(unit 1)
 				)
 			)
@@ -7639,72 +7911,6 @@
 			(project ""
 				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 278.13 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f417f0a3-fcff-4fe7-b095-6f6cee2d2ba3")
-		(property "Reference" "#PWR011"
-			(at 278.13 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 278.13 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 278.13 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 278.13 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff5ae7c3-81f0-49cf-bbc7-ecba35844c3a")
-		)
-		(instances
-			(project "pcb_phone_controller"
-				(path "/fc840a9c-b1ba-43df-b29f-5e3875a3bf9d"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
