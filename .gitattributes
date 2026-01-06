@@ -1,4 +1,4 @@
-/textures/Battery.png filter=lfs diff=lfs merge=lfs -text lockable
-/textures/metal_* filter=lfs diff=lfs merge=lfs -text lockable
-/textures/plastic* filter=lfs diff=lfs merge=lfs -text lockable
-/textures/*.exr filter=lfs diff=lfs merge=lfs -text lockable
+Blender/textures/Battery.png filter=lfs diff=lfs merge=lfs -text lockable
+Blender/textures/metal*      filter=lfs diff=lfs merge=lfs -text lockable
+Blender/textures/plastic*    filter=lfs diff=lfs merge=lfs -text lockable
+Blender/textures/*.exr       filter=lfs diff=lfs merge=lfs -text lockable
