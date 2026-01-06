@@ -6,7 +6,7 @@
 # BUTTONS:
 
 - 11× 6x6x3.5mm 2 pins (silent) mouse switches (ex: HUANO Mute Button 6\*6\*3.5mm; Kailh Mini 6.2mm Silent Micro Switches)
-- 4× TTP223 Capacitive buttons
+- 4× SKRWADE030 tactile buttons
 
 # TRIGGERS:
 
@@ -19,7 +19,8 @@
 - 1× 603030 LiPo battery (30x30x6mm)
 - SMC (optional, only needed for battery monitoring):
   - 2× 200 kΩ resistors (0805)
-  - 1× 100 nF capacitor (0805) 
+  - 1× 100 nF capacitor (0805)
+- 1× 10kΩ resistor (0805)
 - 1× Seeed Studio XIAO ESP32-S3 Plus and an antenna
 - 8× BAT54C diodes
 - 2× 5kΩ resistors (0805)
