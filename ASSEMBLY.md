@@ -25,5 +25,5 @@ microcontroller in the correct pins.
 
 Finally solder all remaining pads then the other components.
 
-For the capacitive touch sensors, solder them first then fix them at the desired
-height and angle.
+You should probably start by the resistors and diodes, then the back buttons
+and then the front buttons and hall effects.

@@ -1,11 +1,12 @@
 # STICKS:
 
 - 2× Nintendo new 3ds XL joysticks
-- 4× Nintendo 3DS joystick screws (8mm x 1.5mm x 2.5mm)
+- 4× Nintendo 3DS joystick screws (8mm × 1.5mm × 2.5mm)
 
 # BUTTONS:
 
-- 11× 6x6x3.5mm 2 pins (silent) mouse switches (ex: HUANO Mute Button 6\*6\*3.5mm; Kailh Mini 6.2mm Silent Micro Switches)
+- 11× 6x6x3.5mm 2 pins (silent) mouse switches
+  (ex: HUANO Mute Button 6 × 6 × 3.5mm; Kailh Mini 6.2mm Silent Micro Switches)
 - 4× SKRWADE030 tactile buttons
 
 # TRIGGERS:
@@ -16,7 +17,7 @@
 
 # ELECTRONICS AND PCB:
 
-- 1× 603030 LiPo battery (30x30x6mm)
+- 1× 603030 LiPo battery (30 × 30 × 6mm)
 - SMC (optional, only needed for battery monitoring):
   - 2× 200 kΩ resistors (0805)
   - 1× 100 nF capacitor (0805)

@@ -24,7 +24,8 @@
  */
 
 Preferences prefs;
-BleGamepad bleGamepad("FMController", "FMC", 100);
+BleGamepad bleGamepad("PhoneController", "Inertie Production", 100);
+// Placeholders:       deviceName         Manufacturer
 
 /* -------------------- Button Matrix -------------------- */
 
