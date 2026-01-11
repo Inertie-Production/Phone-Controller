@@ -2,4 +2,6 @@ PCB/**/~*.lck
 PCB/pcb_phone_controller/pcb_phone_controller-backups/
 **/*.blend1
 
-.kate-swp
+Blender/assets/models/samsung-galaxy-s_7a26cf6c-990a-4258-b4c9-8ef684c94faf/
+
+*.kate-swp
