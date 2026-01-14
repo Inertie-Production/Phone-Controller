@@ -1,7 +1,11 @@
-PCB/**/~*.lck
+# Backups
 PCB/pcb_phone_controller/pcb_phone_controller-backups/
 **/*.blend1
 
-Blender/assets/models/samsung-galaxy-s_7a26cf6c-990a-4258-b4c9-8ef684c94faf/
-
+# Lock files
 *.kate-swp
+PCB/**/~*.lck
+**/*~lock*
+
+# Other
+Blender/assets/models/samsung-galaxy-s_7a26cf6c-990a-4258-b4c9-8ef684c94faf/
