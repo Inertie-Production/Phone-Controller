@@ -1,12 +1,13 @@
 # Phone Controller
 <img width="1067" height="712" alt="Front-closed" src="https://github.com/user-attachments/assets/a7dca1bb-dc6c-4f92-84f5-5ce550081946" />
 
-This is a phone controller design inspired by the Nintendo 3DS.
+This is a phone controller design inspired by the Nintendo 3DS. We created this controller because we wanted to make a cheap and pocketable phone controller while learning a lot of new stuff in the process! 
 You can view and download the 3D model [on our Onshape][onshape].
 
 On this github, you will find the pcb source files & gerbers, the code that
 needs to be loaded on the controller and a BOM.
 
+Once built, to use this controller, you can just clamp your phone on it, turn the power on with the switch and connect to it via bluetooth. 
 Despite being very thin, this controller includes all the features of a full-size controller :
 - 11 buttons with silent mechanical switches
 - A D-pad
