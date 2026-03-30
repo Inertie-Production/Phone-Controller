@@ -7,7 +7,12 @@ You can view and download the 3D model [on our Onshape][onshape].
 On this github, you will find the pcb source files & gerbers, the code that
 needs to be loaded on the controller and a BOM.
 
-This controller features all of the classical buttons found on a controller while staying very thin thanks to the 4 buttons on his back (replacing the shoulders and sticks buttons) 
+Despite being very thin, this controller includes all the features of a full-size controller :
+- 11 buttons with silent mechanical switches
+- A D-pad
+- 2 dual-axis joysticks
+- 2 analog Hall effect triggers or 2 mechanical switches triggers
+The 4 buttons on the back of the controller are the sticks buttons and the bumpers.
 
 Every file of this repository and the Onshape project are licensied under the
 GPL v3 license, see [`LICENSE`](./LICENSE) for details.
