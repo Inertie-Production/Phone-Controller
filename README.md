@@ -1,5 +1,5 @@
-<img width="1067" height="712" alt="Front-closed" src="https://github.com/user-attachments/assets/a7dca1bb-dc6c-4f92-84f5-5ce550081946" />
 # Phone Controller
+<img width="1067" height="712" alt="Front-closed" src="https://github.com/user-attachments/assets/a7dca1bb-dc6c-4f92-84f5-5ce550081946" />
 
 This is a phone controller design inspired by the Nintendo 3DS.
 You can view and download the 3D model [on our Onshape][onshape].
