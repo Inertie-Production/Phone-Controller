@@ -20,6 +20,31 @@ GPL v3 license, see [`LICENSE`](./LICENSE) for details.
 
 [onshape]: https://cad.onshape.com/documents/3e0c9ef397f91415fa372e0c/w/6f6e95703b5b2ee9676d2bfe/e/8a00a41f1ee7d469ca8e343f?renderMode=0&uiState=69529d2b1ac4d36407fdba0f
 
+## Screenshots
+
 <img width="1067" height="712" alt="back-closed" src="https://github.com/user-attachments/assets/035ef3c9-e19c-4e99-9cc9-893c0f6644c9" />
 <img width="600" height="600" alt="Back-open" src="https://github.com/user-attachments/assets/77e74b57-1004-42e0-a70d-6d746621a76c" />
 <img width="600" height="600" alt="Front-open" src="https://github.com/user-attachments/assets/3c9b03eb-928d-463b-ae90-56aab3c640db" />
+
+## BOM
+
+| Type | Name | Description | Qtt needed | Link |
+|------|------|-------------|------------|------|
+|Sticks|New 3DS XL Sticks|Nintendo new 3DS XL joysticks|2|2: https://www.alibaba.com/product-detail/Analog-Joystick-for-New-3DS-XL_1600274819879.html ; https://fr.aliexpress.com/item/1005006359586643.html + https://www.alibaba.com/product-detail/Thumb-Stick-for-3DS-3DS-XL_1601603454755.html?spm=a2700.prosearch.normal_offer.d_image.439067af8KJ20J&priceId=0518491792cb4dbdbbd4ce53df52cdd5 |
+|Screws|M1.4|Nintendo 3DS joystick screws (8mm Long x 1.5mm x 2.5mm) | 4 | https://fr.aliexpress.com/item/1005002364189187.html |
+| | M2|4mm countersunk screws (for closing the back panel)|9|https://fr.aliexpress.com/item/1005008709978631.html |
+||M2.5|5mm round/dome screws (max head height: 1.8mm) to fix the PCB|5|https://fr.aliexpress.com/item/1005008709978631.html |
+|Buttons|SS-12D00 |SS-12D00 2mm shaft slide switch (power)|1|https://fr.aliexpress.com/item/1005008489387043.html |
+||Buttons|6x6x3.5mm 2 pins (silent) mouse switches (ex: HUANO Mute Button 6 × 6 × 3.5mm; Kailh Mini 6.2mm Silent Micro Switches)|11|https://fr.aliexpress.com/item/1005005681410178.html |
+||SKRWADE030|SKRWADE030 tactile buttons|4|https://fr.aliexpress.com/item/4001125555481.html |
+|Triggers|SS49E|SS49E Hall effect sensors|2|https://fr.aliexpress.com/item/1005006001710265.html |
+||Magnets|round 5x2mm magnets|2|https://fr.aliexpress.com/item/1005010155029417.html |
+||Springs|springs (15×4mm)|2|https://fr.aliexpress.com/item/1005005402501364.html |
+|Electronic|603030|603030 LiPo battery (30 × 30 × 6mm)|1|https://www.alibaba.com/product-detail/Lipo-603030-3-7V-600mAh-Rechargeable_1601168807381.html ; https://fr.aliexpress.com/item/1005007958724149.html |
+||Resistors|10kΩ resistor (0805)|4|https://fr.aliexpress.com/item/1005006144658512.html |
+|||200 kΩ resistors (0805)|2|https://fr.aliexpress.com/item/1005008666573344.html |
+||BAT54C|BAT54C diodes|8|https://fr.aliexpress.com/item/1005006228736157.html |
+||Seeed studio|Seeed Studio XIAO ESP32-S3 Plus and an antenna|1|https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Plus-p-6361.html ; https://fr.aliexpress.com/item/1005008329745247.html |
+||100 nF 0805|100 nF capacitor (0805)|1|https://fr.aliexpress.com/item/1005006142309480.html
+||PCB|The PCB|1|https://cart.jlcpcb.com/fr/quote?stencilLayer=2&stencilWidth=100&stencilLength=100&stencilCounts=5&plateType=1&spm=Jlcpcb.Homepage.1010 |
+|Plastic|3D printer filament|in grams, full estimation to check|300|
