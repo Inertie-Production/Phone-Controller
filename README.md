@@ -3,8 +3,10 @@
 This is a phone controller design inspired by the Nintendo 3DS.
 You can view and download the 3D model [on our Onshape][onshape].
 
-On this github, you will find the pcb source files & gerbers and the code that
-needs to be loaded to the controller.
+On this github, you will find the pcb source files & gerbers, the code that
+needs to be loaded on the controller and a BOM.
+
+This controller features all of the classical buttons found on a controller while staying very thin thanks to the 4 buttons on his back (replacing the shoulders and sticks buttons) 
 
 Every file of this repository and the Onshape project are licensied under the
 GPL v3 license, see [`LICENSE`](./LICENSE) for details.
